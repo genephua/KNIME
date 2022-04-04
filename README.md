@@ -1,5 +1,8 @@
 # Decision Tree Model For Online Shopper Analysis 
 ## To Predict Which Online Vistors Will Decide to Buy
+
+### Project Details
+This project aims to use the Decision Tree Model to predict the purchase behavior of online shoppers who visit a service/product offered online through a website.
 ### Input features of the training dataset
 The training dataset contains of binary (nominal), discrete and continuous data. It mainly consists of data relating to the website’s users’ usage statistics on the website and whether the usage statistics eventually leads to a purchase being made.
 <br />
