@@ -55,3 +55,6 @@ d) It is still worth as the recall value is 0.64 (where REVENUE = TRUE is taken 
 Users who are looking at pages with values greater than 9.025 are mostly users that have a positive purchase intent. Out of this group of users who are looking at page with values greater than 9.025, most are returning visitors that have a positive purchase intent.  The second most for Page Values > 9.025 with positive purchase intent, are new visitors and the least are other types of visitors. 
 
 Thus, when the users are looking at Page Values > 9.025, it will predict that the users have a positive purchase intent, and that this group of users will be predicted to be returning customers. 
+
+Analysis powered by KNIME Analytics Platform
+<br /> Source: Data.xlsx
