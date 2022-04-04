@@ -15,24 +15,29 @@ Product related duration has the most positively skewed distribution. This is no
 
 Administrative (subject matter) has the least positively skewed distribution. It also has the smallest figure for kurtosis which suggest it has the least extreme values.
 
-**Pie chart of Vistors (Buyers & Non Buyers):**
+### Pie chart of Vistors (Buyers & Non Buyers):
 
 ![meta-chart](https://user-images.githubusercontent.com/102946848/161533911-14a14b8a-95bc-4de4-b636-6110981e151c.jpeg)
 
  
 The dataset is unbalanced with respect to the target (Revenue). 85% of the users have not made a purchase which is essentially most of the population.
-Reasons for choice of Decision Tree
-1.	Capable of handling both continuous and binary (categorical) variables
-2.	Able to provide a clear indication of which fields are most important for prediction 
-Parameter Optimization Details and Findings
-Method used: K-Fold Cross-Validation
-•	Chosen because this method ensures that every observation from the original dataset has the chance of appearing in both the training and test set.
-No. of folds: 10 
-•	Too small a number of folds will result in more computation time, whereas the larger the number of folds, the lesser the accuracy. As such, I have chosen 10 because I find it to be a good balance of both efficiency in computation time and accuracy.
-Choice of random seed: 1234
-Objective Function to Optimize: Maximization of Accuracy 
-Optimized Hyper parameter:  29 
-•	This is the figure which gives the highest accuracy figure.
+### Reasons for choice of Decision Tree
+1. Capable of handling both continuous and binary (categorical) variables
+2. Able to provide a clear indication of which fields are most important for prediction 
+### Parameter Optimization Details and Findings
+**Method used:** K-Fold Cross-Validation
+<br /> •Chosen because this method ensures that every observation from the original dataset has the chance of appearing in both the training and test set.
+
+ **No. of folds:**  10 
+<br /> •Too small a number of folds will result in more computation time, whereas the larger the number of folds, the lesser the accuracy. As such, I have chosen 10 because I find it to be a good balance of both efficiency in computation time and accuracy.
+
+**Choice of random seed:** 1234
+
+**Objective Function to Optimize:** Maximization of Accuracy 
+
+**Optimized Hyper parameter:**  29 
+<br />  •This is the figure which gives the highest accuracy figure.
+
 Decision Tree
 a)	Recall is the preferred performance metric compared to Accuracy as we are more interested in the ability of the decision tree model to correctly predict the number of website users that have made a purchase as opposed to the ability of the decision tree model to make correct predictions (which contains both buying and non-buying website users). 
 
