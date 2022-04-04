@@ -1,30 +1,24 @@
 # Decision Tree Model For Online Shopper Analysis 
 ## To Predict Which Online Vistors Will Decide to Buy
-**Input features of the training dataset**
-<br /> The training dataset contains of binary (nominal), discrete and continuous data. It mainly consists of data relating to the website’s users’ usage statistics on the website and whether the usage statistics eventually leads to a purchase being made.
+### Input features of the training dataset
+The training dataset contains of binary (nominal), discrete and continuous data. It mainly consists of data relating to the website’s users’ usage statistics on the website and whether the usage statistics eventually leads to a purchase being made.
 <br />
 <br /> **Binary (nominal) data:** Operating systems, Browser, Region, Traffic Type, Visitor Type, Revenue, Weekend
 <br /> **Discrete data:** Administrative, Informational, Product Related 
 <br /> **Continuous data:** Administrative Duration, Informational Duration, Product Related Duration, Page Values
-<br /> **Summary Statistics for Quantitative Variables:**
-|Variable|	Min	Max	Mean	Standard Deviation	Variance	Skewness	Kurtosis
-Administrative
-(Subject Matter)	0	27	2.318	3.328	11.073	1.971	4.7737
-Administrative
-Duration	0	3398.75	80.426	177.241	31414444	5.807	54.1954
-Informational
-(Subject Matter)	0	24	0.504	1.264	1.599	4.118	29.258
-Informational
-Duration	0	2549.375	34.484	142.614	20338.802	7.89	82.3957
-Product Related (Subject Matter)	0	705	32.004	45.271	2049.506	4.438	32.2057
-Product Related Duration	0	63973.522	1204.488	1961.271	3846583.282	7.774	151.5582
-Page Values	0	361.764	5.753	18.354	336.863	6.613	71.594
+### Summary Statistics for Quantitative Variables:
+
+![image](https://user-images.githubusercontent.com/102946848/161532861-926a0545-e063-4a11-b7fb-f4fed546fcf9.png)
 
 All the quantitative variables here are positively skewed. Most of the quantitative variables have significant to large amounts of kurtosis. 
 Product related duration has the most positively skewed distribution. This is not surprising as users of the website are likely there with the main intention to find out more about the products being sold. It also has the largest figure for kurtosis which suggests it has the largest extreme values, some of which might be outliers.
+
 Administrative (subject matter) has the least positively skewed distribution. It also has the smallest figure for kurtosis which suggest it has the least extreme values.
 
-Pie chart of Purchases (Revenue):
+**Pie chart of Vistors (Buyers & Non Buyers):**
+
+![meta-chart](https://user-images.githubusercontent.com/102946848/161533911-14a14b8a-95bc-4de4-b636-6110981e151c.jpeg)
+
  
 The dataset is unbalanced with respect to the target (Revenue). 85% of the users have not made a purchase which is essentially most of the population.
 Reasons for choice of Decision Tree
