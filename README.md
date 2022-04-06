@@ -60,4 +60,5 @@ Users who are looking at pages with values greater than 9.025 are mostly users t
 Thus, when the users are looking at Page Values > 9.025, it will predict that the users have a positive purchase intent, and that this group of users will be predicted to be returning customers. 
 
 *Analysis powered by KNIME Analytics Platform*
-<br /> *Data Source: Data.xlsx*
+*Knime Workflow : [https://github.com/genephua/KNIME-DecisionTree/blob/main/Online%20Shopper%20Decision%20Tree.knwf](https://github.com/genephua/KNIME-DecisionTree/blob/main/Online%20Shopper%20Decision%20Tree.knwf)
+<br /> *Data Source: [Data.xlsx](https://github.com/genephua/KNIME-DecisionTree/blob/main/Data.csv)*
